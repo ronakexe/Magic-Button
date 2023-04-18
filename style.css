@@ -1,4 +1,65 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 html {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+:root {
+  --blue: #1d98f7;
+  --purple: #bd1df7;
+  --pink: #f71d9c;
+  --red: #f71d1d;
+  --orange: #f79c1d;
+  --yellow: #f7f01d;
+  --green: #1df75e;
+}
+
+#magic {
+  border: none;
+  background-color: var(--blue);
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  font-family: "Poppins";
+  font-size: 30px;
+  color: white;
+}
+
+
+
+#magic:active {
+  animation: magicking 2s linear infinite forwards;
+}
+
+@keyframes magicking {
+  from{
+    background-color: var(--blue);
+  }
+  0%{
+    background-color: var(--purple);
+  }
+  20%{
+    background-color: var(--pink);
+  }
+  40%{
+    background-color: var(--red);
+  }
+  60%{
+    background-color: var(--orange);
+  }
+  80%{
+    background-color: var(--yellow);
+  }
+  100%{
+    background-color: var(--green);
+  }
+  to{
+    background-color: var(--blue);
+  }
+}
+}
+
