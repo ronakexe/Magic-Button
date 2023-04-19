@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 html {
   height: 100%;
@@ -21,14 +21,33 @@ html {
 #magic {
   border: none;
   background-color: var(--blue);
-  border-radius: 20px;
-  width: 200px;
+  border-radius: 50px;
+  width: 100px;
   height: 100px;
   font-family: "Poppins";
-  font-size: 30px;
-  color: white;
+}
+#magicHolder {
+  width: 200px;
+  height: 100px;
+  background-color: darkgrey;
+  border: none;
+  border-radius: 50px;
 }
 
+#bottomLinks {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  
+}
+
+#github {
+  height: 30px;
+}
+#replit {
+  height: 50px;
+}
 
 
 #magic:active {
@@ -61,5 +80,3 @@ html {
     background-color: var(--blue);
   }
 }
-}
-
