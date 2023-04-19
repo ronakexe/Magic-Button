@@ -1,0 +1,3 @@
+# Magic Switch
+## Purpous
+## Contrubutors 
